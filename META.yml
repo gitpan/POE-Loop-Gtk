@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               POE-Loop-Gtk
-version:            1.300
+version:            1.301
 abstract:           Gtk event loop support for POE.
 author:
     - Rocco Caputo <rcaputo@cpan.org>
@@ -8,12 +8,13 @@ license:            unknown
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
+    POE::Test::Loops:     1.021
 build_requires:
     ExtUtils::MakeMaker:  0
+    POE::Test::Loops:     1.021
 requires:
-    Gtk:               0.7009
-    POE:               1.007
-    POE::Test::Loops:  1.021
+    Gtk:  0.7009
+    POE:  1.007
 resources:
     license:     http://dev.perl.org/licenses/
     repository:  https://poe.svn.sourceforge.net/svnroot/poe/trunk/polo-gtk
