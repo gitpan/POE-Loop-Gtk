@@ -1,3 +1,21 @@
+======================================
+9999-99-99 99:99:99.999999Z (untagged)
+======================================
+
+  2009-09-07 19:33:27 (r2680) by rcaputo; polo-gtk/lib/POE/Loop/Gtk.pm M
+
+    Bump version for next release.
+
+  2009-09-04 07:05:48 (r2670) by rcaputo; polo-gtk/lib/POE/Loop/Gtk.pm M
+
+    z_rt39872_sigchld_stop crashes Gdk, so skip it. Also, bypass
+    Gtk->init_check() because it returns failure when Gtk is present and
+    accounted for. [rt 28804] 
+
+  2009-09-04 04:58:00 (r2669) by rcaputo; polo-gtk/lib/POE/Loop/Gtk.pm M
+
+    Try (vainly) to elicit an error from Gtk when it fails to init. 
+
 =====================================
 2009-08-27T04:27:51.928843Z plg-1_302
 =====================================

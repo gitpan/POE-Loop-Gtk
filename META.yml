@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               POE-Loop-Gtk
-version:            1.302
+version:            1.303
 abstract:           Gtk event loop support for POE.
 author:
     - Rocco Caputo <rcaputo@cpan.org>
