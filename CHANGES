@@ -1,4 +1,14 @@
 =====================================
+2010-04-03T20:05:07.327196Z plg-1_305
+=====================================
+
+  2010-04-03 20:02:10 (r2867) by rcaputo
+  polo-gtk/lib/POE/Loop/Gtk.pm M; polo-gtk/Makefile.PL M
+
+    Bump revision for a new release. No significant changes, other than
+    to build a new dist with the latest EUMM.
+
+=====================================
 2010-04-03T18:19:45.054855Z plg-1_304
 =====================================
 
