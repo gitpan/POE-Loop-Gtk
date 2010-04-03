@@ -1,6 +1,23 @@
-======================================
-9999-99-99 99:99:99.999999Z (untagged)
-======================================
+=====================================
+2010-04-03T18:19:45.054855Z plg-1_304
+=====================================
+
+  2010-04-03 18:18:42 (r2859) by rcaputo
+  polo-gtk/lib/POE/Loop/Gtk.pm M; polo-gtk/Makefile.PL M
+
+    Fix PLG dependencies and bump revision for release.
+
+  2010-03-24 06:52:46 (r2852) by apocal
+  poe M; polo-gtk/Makefile.PL M; polo-tk M; polo-event M; poe-test-loops
+  M; polo-gtk M
+
+    Set svn:ignore for: META.yml CHANGES run_network_tests PoLo-Gtk
+    forgot to clean run_network_tests 
+
+  2010-03-06 23:55:53 (r2827) by apocal; polo-gtk/lib/POE/Loop/Gtk.pm M
+
+    Add missing import line for Gtk.pm so the loop will load with
+    POE_EVENT_LOOP env var 
 
   2009-09-07 19:33:27 (r2680) by rcaputo; polo-gtk/lib/POE/Loop/Gtk.pm M
 
