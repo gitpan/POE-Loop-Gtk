@@ -6,3 +6,4 @@ Makefile.PL
 README
 lib/POE/Loop/Gtk.pm
 t/00_info.t
+META.json                                Module JSON meta-data (added by MakeMaker)

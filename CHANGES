@@ -1,97 +1,18 @@
-=====================================
-2010-04-03T20:05:07.327196Z plg-1_305
-=====================================
+================================
+2013-08-21 19:27:26 -0400 v1_306
+================================
 
-  2010-04-03 20:02:10 (r2867) by rcaputo
-  polo-gtk/lib/POE/Loop/Gtk.pm M; polo-gtk/Makefile.PL M
+  commit a1ad8bd9642a98161457be3494b679d8e899ffc2
+  Author: Rocco Caputo <rcaputo@cpan.org>
+  Date:   Wed Aug 21 19:23:58 2013 -0400
+  
+    Freshen up Makefile.PL and the docs.
 
-    Bump revision for a new release. No significant changes, other than
-    to build a new dist with the latest EUMM.
-
-=====================================
-2010-04-03T18:19:45.054855Z plg-1_304
-=====================================
-
-  2010-04-03 18:18:42 (r2859) by rcaputo
-  polo-gtk/lib/POE/Loop/Gtk.pm M; polo-gtk/Makefile.PL M
-
-    Fix PLG dependencies and bump revision for release.
-
-  2010-03-24 06:52:46 (r2852) by apocal
-  poe M; polo-gtk/Makefile.PL M; polo-tk M; polo-event M; poe-test-loops
-  M; polo-gtk M
-
-    Set svn:ignore for: META.yml CHANGES run_network_tests PoLo-Gtk
-    forgot to clean run_network_tests 
-
-  2010-03-06 23:55:53 (r2827) by apocal; polo-gtk/lib/POE/Loop/Gtk.pm M
-
-    Add missing import line for Gtk.pm so the loop will load with
-    POE_EVENT_LOOP env var 
-
-  2009-09-07 19:33:27 (r2680) by rcaputo; polo-gtk/lib/POE/Loop/Gtk.pm M
-
-    Bump version for next release.
-
-  2009-09-04 07:05:48 (r2670) by rcaputo; polo-gtk/lib/POE/Loop/Gtk.pm M
-
-    z_rt39872_sigchld_stop crashes Gdk, so skip it. Also, bypass
-    Gtk->init_check() because it returns failure when Gtk is present and
-    accounted for. [rt 28804] 
-
-  2009-09-04 04:58:00 (r2669) by rcaputo; polo-gtk/lib/POE/Loop/Gtk.pm M
-
-    Try (vainly) to elicit an error from Gtk when it fails to init. 
-
-=====================================
-2009-08-27T04:27:51.928843Z plg-1_302
-=====================================
-
-  2009-08-27 04:25:43 (r2651) by rcaputo
-  polo-gtk/lib/POE/Loop/Gtk.pm M; polo-gtk/Makefile.PL M
-
-    Add the info test we forgot to include.
-
-=====================================
-2009-08-26T15:36:33.809144Z plg-1_301
-=====================================
-
-  2009-08-26 15:32:01 (r2646) by rcaputo
-  polo-gtk/lib/POE/Loop/Gtk.pm M; polo-gtk/Makefile.PL M
-
-    Add POE::Test::Loops to configure_requires and build_requires.
-
-=====================================
-2009-08-26T02:34:39.613499Z plg-1_300
-=====================================
-
-  2009-08-26 02:30:48 (r2639) by rcaputo; polo-gtk/Makefile.PL M
-
-    We use the generic svn-log.perl, not the one included in POE.
-
-  2009-08-25 17:05:17 (r2635) by rcaputo
-  polo-gtk/lib/POE/Loop A; polo-gtk/lib/POE/Loop/Gtk.pm A;
-  polo-tk/MANIFEST.SKIP A; polo-gtk/lib A; polo-gtk/MANIFEST A;
-  polo-gtk/MANIFEST.SKIP A; poe/lib/POE/Loop/TkActiveState.pm D;
-  polo-tk/Makefile.PL A; polo-tk/lib/POE A; polo-tk/lib/POE/Loop/Tk.pm A;
-  polo-gtk/Makefile.PL A; polo-tk/t/00_info.t A; polo-tk A;
-  poe/lib/POE/Loop/Gtk.pm D; polo-gtk/lib/POE A;
-  poe/lib/POE/Loop/TkCommon.pm D; polo-tk/lib/POE/Loop A; polo-tk/t A;
-  polo-gtk/README A; polo-event/lib/POE/Loop A; polo-gtk/t/00_info.t A;
-  polo-tk/MANIFEST A; polo-gtk A; polo-event/MANIFEST A; polo-event/lib
-  A; polo-gtk/t A; polo-event/MANIFEST.SKIP A;
-  polo-tk/lib/POE/Loop/TkActiveState.pm A; poe/mylib/Makefile-5005.pm M;
-  poe/lib/POE/Loop/Tk.pm D; polo-event/Makefile.PL A;
-  poe/lib/POE/Loop/Event.pm D; polo-event/lib/POE A; polo-tk/README A;
-  polo-event/README A; polo-event/lib/POE/Loop/Event.pm A;
-  polo-event/t/00_info.t A; polo-event A;
-  polo-tk/lib/POE/Loop/TkCommon.pm A; poe/MANIFEST M; polo-tk/lib A;
-  polo-event/t A
-
-    Create new project directories for POE::Loop::{Event,Tk,Gtk}. Moved
-    the loops to their new project directories. Configured the new
-    projects for CPAN distribution. Removed the event loops from POE's
-    distro configuration. 
+  commit 58275001414f98ab86d98071de83e1da0d8f471b
+  Author: Rocco Caputo <rcaputo@cpan.org>
+  Date:   Tue Sep 7 22:07:20 2010 -0400
+  
+    Promote polo-gtk files to top leve. 
 
 ==============
 End of Excerpt
